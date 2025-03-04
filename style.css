@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --text-red: #E1624F;
+    --text-black: #333333;
+    --text-blue: #0C51A7;
+    --text-pink: #E5245E;
+    --text-orange: #E95E10;
+    --title: #1B1B1B;
+    --line-color: #D9D9D9;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--line-color);
+}
+
+#app {
+    max-width: 112rem;
+    margin: 0 auto;
+    padding-inline: 8rem;
+}
+
+.wallpaper {
+    margin: 8.8rem 0 4rem;
+}
+
+p { 
+    font-size: 1.6rem;
+    color: var(--text-red);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wallpaper h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: auto;
+    color: var(--title);
+
+    margin-top: 0.8rem;
+    margin-bottom: 4rem;  
+}
+
+.wallpaper figcaption {
+    text-align: center;
+    margin-top: 2.4rem;
+}
+
+main {
+    margin-top: 6.4rem;
+}
+
+.explorerTours {
+    margin-bottom: 4rem;
+}
+
+.explorerTours h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: auto;
+
+    margin: 0.2px 0 0.8rem;
+}
+
+.explorerTours h2 + p,
+ul li p {
+    font-size: 1.6rem;
+    color: var(--text-black);
+    font-weight: 400;
+    text-transform: none;
+}
+
+ul.places {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+
+    margin-top: 6.4rem;;
+
+    list-style: none;
+}
+
+ul li h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--title);
+
+    margin: 2rem 0 0.4rem;
+}
+
+ul.legend {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-black);
+
+    list-style: disc;
+}
+
+ul.legend li {
+    color: var(--text-blue);
+    margin-left: 2rem;
+
+}
+
+ul.legend li + li {
+    color: var(--text-pink);
+}
+
+ul.legend li + li + li {
+    color: var(--text-orange);
+}
+
+.description {
+    margin-top: 4rem;
+}
+
+.description p {
+    font-size: 1.6rem;
+    color: var(--text-black);
+    font-weight: 400;
+    text-transform: none;
+}
+
+footer {
+    font-size: 1.6rem;
+    color: var(--text-black);
+    
+    text-align: center;
+    margin: 6.5rem 0 4.8rem;
+}
+
+footer img {
+    width: auto;
+
+}
