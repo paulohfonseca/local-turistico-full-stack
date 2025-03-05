@@ -113,6 +113,10 @@ ul.legend {
     list-style: disc;
 }
 
+ul.legend li::marker {
+    color: var(--text-black);
+  }
+
 ul.legend li {
     color: var(--text-blue);
     margin-left: 2rem;
