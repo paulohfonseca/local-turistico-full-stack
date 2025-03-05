@@ -58,6 +58,7 @@ p {
 }
 
 .wallpaper figcaption {
+    font-style: italic;
     text-align: center;
     margin-top: 2.4rem;
 }
