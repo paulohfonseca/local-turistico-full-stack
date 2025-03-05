@@ -33,7 +33,7 @@ img {
 #app {
     max-width: 112rem;
     margin: 0 auto;
-    padding-inline: 8rem;
+    padding-inline: 4%;
 }
 
 .wallpaper {
@@ -138,6 +138,7 @@ ul.legend li + li + li {
 }
 
 footer {
+    font-family: 'Alice', sans-serif;
     font-size: 1.6rem;
     color: var(--text-black);
     
@@ -147,5 +148,4 @@ footer {
 
 footer img {
     width: auto;
-
 }
